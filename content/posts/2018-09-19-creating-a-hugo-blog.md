@@ -43,9 +43,6 @@ Hugo has a bunch of different themes maintained by the community, after only 15 
 
 {{% zoom-img src="./themes.png" %}}
 
-### Setting the defaults
-{{% zoom-img src="./defaults.png" %}}
-
 ### Creating a workflow
 I wanted my workflow to be simple and I'm pretty happy with what I've got at the point of writing this. I only have to create markdown files under the `content` directory to make pages. If I want to make a blog post, I'll just create a markdown file under `content/posts` and it will show up in the feed on the front page.
 
