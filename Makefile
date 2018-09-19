@@ -8,9 +8,6 @@ GIT_PUBLIC="git@github.com:zeeraw/zeeraw.github.io.git"
 
 OUTPUT_DIR="./public"
 
-init:
-	git submodule add -b master -f --name public $(GIT_PUBLIC) $(OUTPUT_DIR)
-
 develop:
 	hugo server -t $(THEME) -D --bind=0.0.0.0
 
@@ -29,6 +26,3 @@ publish:
 		git commit -m "Publishing site `date`"
 	@cd $(OUTPUT_DIR);\
 		git push -f origin master
-
-theme:
-	@echo $(THEME)
