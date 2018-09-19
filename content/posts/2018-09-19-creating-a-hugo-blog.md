@@ -39,7 +39,7 @@ Since GitHub [does not allow pages for personal profiles to be hosted from a dif
 The benefit of doing it this way is that I can version and store my changes on GitHub without having to ever touch the static site until I'm absolutely ready to publish something new.
 
 ### Installing my theme
-Hugo has a bunch of different themes maintained by the community, after only 15 minutes of trying different demos I settled on one called [Pickles](https://themes.gohugo.io/hugo_theme_pickles/), which is a rather minimalistic theme.
+Hugo has a [bunch of different themes maintained by the community](https://themes.gohugo.io/), after only 15 minutes of trying different demos I settled on one called [Pickles](https://themes.gohugo.io/hugo_theme_pickles/), which is a rather minimalistic theme.
 
 {{% zoom-img src="./themes.png" %}}
 
