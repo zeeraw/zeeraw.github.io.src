@@ -25,13 +25,13 @@ publish:
 	@# Add CNAME to repository
 	@echo $(DOMAIN_NAME) > $(OUTPUT_DIR)/CNAME
 
+	@cd $(OUTPUT_DIR)
+
 	@# Add all changes to git submodule
 	@git add -A
 
 	@# Commit changes to submodule
 	@git commit -m "Publishing site $(date)"
-
-	@cd $(OUTPUT_DIR)
 	
 	@# Push source to master on origin
 	@git push origin master
