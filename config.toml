@@ -1,4 +1,4 @@
-baseurl = "http://vall.in/"
+baseurl = "https://vall.in/"
 languageCode = "en-gb"
 Title = "Philip Vieira"
 
@@ -31,7 +31,7 @@ copyright = "&copy; Philip Vieira"
     # Google Analytics API key.
     #ga_api_key = "Your Google Analytics tracking id"
     author = "Philip Vieira"
-    authorwebsite = "http://vall.in"
+    authorwebsite = "https://vall.in"
     avatar = "/img/avatar-512.jpg"
     contact = "mailto:zee@vall.in"
     bio = "Runner in the morning, freelance software engineer in the day, fursuiter in the evening, aspiring artist at night, currently in therapy. Specialising in Go, Ruby and Javascript and microservice architecture."
