@@ -19,25 +19,16 @@ build:
 
 publish:
 	@echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-	@# Build project to ./public
 	@hugo -t $(THEME)
 
-	@# Add CNAME to repository
 	@echo $(DOMAIN_NAME) > $(OUTPUT_DIR)/CNAME
 
-	@cd $(OUTPUT_DIR)
-
-	@# Add all changes to git submodule
-	@git add -A
-
-	@# Commit changes to submodule
-	@git commit -m "Publishing site $(date)"
-	
-	@# Push source to master on origin
-	@git push origin master
-
-	@# Go back to main project
-	@cd ..
+	@cd $(OUTPUT_DIR);\
+		git add -A
+	@cd $(OUTPUT_DIR);\
+		git commit -m "Publishing site `date`"
+	@cd $(OUTPUT_DIR);\
+		git push -f origin master
 
 theme:
 	@echo $(THEME)
