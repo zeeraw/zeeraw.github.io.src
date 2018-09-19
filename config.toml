@@ -33,7 +33,7 @@ copyright = "&copy; Philip Vieira"
     author = "Philip Vieira"
     authorwebsite = "https://vall.in"
     avatar = "/img/avatar-512.jpg"
-    contact = "mailto:zee@vall.in"
+    contact = "mailto:zee+website@vall.in"
     bio = "Runner in the morning, freelance software engineer in the day, fursuiter in the evening, aspiring artist at night, currently in therapy. Specialising in Go, Ruby and Javascript."
     # Short subtitle/tagline. This is displayed in the header.
     subtitle = "Freelance software engineer"
